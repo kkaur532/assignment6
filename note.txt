@@ -1,0 +1,3 @@
+pass :samplepassword
+user: sampleuser
+server: peanut.db.elephantsql.com (peanut-01)
