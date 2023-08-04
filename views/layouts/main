@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <head>
+        <title>View Data</title>
+        <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,user-scalable=no,width=device-width"/>
+        <link rel="stylesheet" type="text/css" href="/theme.css" /> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+        <!-- Top Menu -->
+        <div class="topnav">
+            <div class="logo">Sheetal singh</div>
+            <a class="active" href="/" target="_self"><i class="fa fa-fw fa-home"></i> Home</a>
+            <a href="/about" target="_self">About</a>
+            <a href="/htmldemo" target="_self">Html Demo</a>
+            <a href="/login">login/logout</a>
+            <a href="/students" class="split" target="_self">Students</a>
+            <a href="/courses" class="split" target="_self">Courses</a>
+        </div>
+        <main>
+            {{{body}}}
+        </main>
+        <!-- footer -->
+        <footer class="footer-distributed">
+			<div class="footer-right">
+
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-github"></i></a>
+
+			</div>
+			<div class="footer-left">
+
+				<p class="footer-links">
+                    <a class="link-1" href="/" target="_self"><i class="fa fa-fw fa-home"></i> Home</a>
+                    <a href="/about" target="_self">About</a>
+                    <a href="/htmldemo" target="_self">Html Demo</a>
+                    <a href="/students" class="split" target="_self">Students</a>
+                    <a href="/courses" class="split" target="_self">Courses</a>
+				</p>
+				<p>Sheetal singh - WEB322 &copy; 2022</p>
+			</div>
+
+		</footer>
+    </body>
+</html>
