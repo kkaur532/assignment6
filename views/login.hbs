@@ -1,0 +1,16 @@
+
+  <div class="row">
+    <div class="col-md-12">
+        {{#if errorMsg}}
+        <h5>{{errorMsg}}</h5>
+        {{else}}
+        <h4>Please login below</h4>
+        <h5>You are not able access to any of the routes befor login!</h5>
+        {{/if}}
+        <form method="post" action="/login">
+        <label>Username</label><input name="username" type="text">
+        <label>Password</label><input name="password" type="password">
+        <button type="submit">Login</button>
+        </form>
+    </div>
+  </div>
